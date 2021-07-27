@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>home Electrical</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/1.css">
+        <script src="../static/js/1.js"></script>
+    </head>
+    <body onload="">
+        <header>
+            <p></p>
+        </header>
+        <nav>
+
+        </nav>
+        <article>
+           
+        </article>
+        <aside>
+            <div id="login">
+                <div>Login</div>
+                <form action="" method="post" name="formLogin" id="formLogin">
+                    <label>UserName:</label>
+                    <input type="text" id="userName" name="userName">
+                    <label>PassWord:</label>
+                    <input type="text" id="PassWord" name="passWord">
+                    <input type="submit">
+                </form>
+            </div>
+            <div id="result">
+                {% if message %}
+                    <p>{{ message }}</p>
+                {% endif %}
+            </div>
+        </aside>
+        <footer>
+
+        </footer>
+    </body>
+</html>

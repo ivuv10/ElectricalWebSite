@@ -1,0 +1,134 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, helvetica, sans-serif;
+    text-align:center;
+	background-color:rgba(209, 207, 100); 
+	font-size: 19px;
+}
+h1
+{
+	color: blue;
+	padding: 30px;
+	margin: auto;
+}
+header
+{
+    border-bottom: 2px solid white;
+	border-radius: 0px;
+	width: 100%;
+	height: 15%;
+	background-color: rgba(20, 150, 224, 0.719);
+	
+}
+nav
+{
+	border: 0px solid white;
+	border-radius: 0px;
+	width: 14%;
+	height: 74%;
+	background-color: rgba(20, 150, 224, 0.719);
+	float: right;
+}
+article
+{
+	border: 0px solid white;
+	border-radius: 0px;
+	width: 72%;
+	height: 74%;
+	background-color: rgba(209, 207, 60);
+	float: right;
+}
+aside
+{
+	border: 0px solid white;
+	border-radius: 0px;
+	width: 14%;
+	height: 74%;
+	background-color: rgba(20, 150, 224, 0.719);
+	float: left;	
+}
+footer
+{
+	border-top: 2px solid white;
+	border-radius: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(20, 150, 224, 0.719);
+	float: left;
+}
+input[type=text]
+{
+	width: 90%;
+	padding: 8px 5px;
+	margin: 8px 0px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+input[type=password]
+{
+	width: 90%;
+	padding: 8px 5px;
+	margin: 8px 0px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+input[type=submit]
+{
+	width: 70%;
+	padding: 7px 4px;
+	margin: 8px 0px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+#login
+{
+	border-top: 0px solid white;
+	border-radius: 0px;
+	width: 100%;
+	height: 50%;
+	background-color: rgba(20, 200, 225, 0.5);
+	float: left;
+}
+#formLogin
+{
+	padding: 13px;
+	margin: 10x;
+}
+#result
+{
+	border-top: 0px solid white;
+	border-radius: 0px;
+	width: 100%;
+	height: 50%;
+	background-color: rgba(20, 200, 225, 0.5);
+	float: left;
+} 
+#ingredients_menu1
+{
+	border-top: 0px solid white;
+	border-radius: 0px;
+	width: 15%;
+	height: 100%;
+	background-color: white;
+	float: left;	
+}
+#ingredients_menu2
+{
+	border-top: 0px solid white;
+	border-radius: 0px;
+	width: 15%;
+	height: 100%;
+	background-color: white;
+	float: left;	
+}
+.matrix
+{
+	border-top: 0px solid white;
+	border-radius: 0px;
+	width: 7%;
+	height: 10%;
+	background-color: rgba(20, 200, 225, 0.5);
+	float: left;
+}
