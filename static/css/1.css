@@ -58,6 +58,10 @@ footer
 	background-color: rgba(20, 150, 224, 0.719);
 	float: left;
 }
+img
+{
+	opacity:0.8;
+}
 input[type=text]
 {
 	width: 90%;
